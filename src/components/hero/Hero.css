@@ -100,6 +100,7 @@
     color: var(--neutral-darkblue);
     font-weight: 500;
     position: relative;
+    min-height: 2rem;
 }
 .form input:focus{
     outline: none;
@@ -121,6 +122,7 @@
 .form>span{
     text-align: center;
     color: var(--neutral-grayishblue);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 .form>span::after{
     content: 'terms and conditions';
