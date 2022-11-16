@@ -19,6 +19,12 @@
   body{
     overflow-x: hidden;
     width: 100vw;
-    height: 100vh;
-    
+    background-image: url('/src/assets/images/bg-intro-desktop.png');
+    background-color: var(--primary-red);
+}
+
+@media (max-width: 380px){
+       body{
+   background-image: url('/src/assets/images/bg-intro-mobile.png');
+  }
 }
