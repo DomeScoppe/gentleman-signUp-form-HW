@@ -45,7 +45,7 @@
     -webkit-text-stroke-width: 2px;
 }
 .row1 p{
-    font-size: clamp(1rem, 2.4vw, 1.7rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
     text-align: start;
     color: white;
     font-weight: 400;
