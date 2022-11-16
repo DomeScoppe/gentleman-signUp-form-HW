@@ -138,6 +138,8 @@
     position: absolute;
     right: 0;
     bottom: -33%;
+    font-style: italic;
+    font-weight: 500;
 }
 .inputError{
     border: 2px solid var(--primary-red);
