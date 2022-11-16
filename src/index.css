@@ -1,0 +1,24 @@
+:root{
+  --primary-red: hsl(0, 100%, 74%);
+  --primary-green: hsl(154, 59%, 51%);
+  --accent-blue: hsl(248, 32%, 49%);
+  --neutral-darkblue: hsl(249, 10%, 26%);
+  --neutral-grayishblue: hsl(246, 25%, 77%);
+   font-size: 16px;
+   font-family: 'Slabo 27px', serif;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    
+}
