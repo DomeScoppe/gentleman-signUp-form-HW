@@ -45,7 +45,7 @@
     -webkit-text-stroke-width: 2px;
 }
 .row1 p{
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-size: clamp(0.9rem, 1.8vw, 1.2rem);
     text-align: start;
     color: white;
     font-weight: 400;
@@ -195,5 +195,6 @@
     .form{
         min-width: unset;
         width: 95%;
+        aspect-ratio: unset;
     }
 }
